@@ -1,0 +1,68 @@
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+}
+
+/* .slider-item {
+  max-width: 100vw;
+  max-height: 10vh;
+}
+
+.slider img {
+  width: 100vw;
+  height: 100vh;
+} */
+
+/* common */
+.line-highlight {
+  width: 200px;
+  height: 1px;
+  margin: 30px auto;
+  display: block;
+  background-color: #fff;
+}
+
+.banner {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #86c7ed;
+}
+
+.banner-info {
+  text-align: center;
+}
+
+.banner-info h1 {
+  font: 700 6rem cursive;
+}
+
+.banner-info h1 span {
+  font-size: 3rem;
+}
+
+.banner-info h2 {
+  font: 300 2rem 'Helvetica', sans-serif;
+}
+
+.banner h3 {
+  margin-bottom: 50px;
+  font: 400 2.5rem cursive;
+}
+
+.banner button {
+  border: 2px solid;
+  padding: 10px 30px;
+  background-color: transparent;
+  color: #fff;
+  font: 400 1.5rem 'Helvetica', sans-serif;
+  letter-spacing: 5px;
+}
+
+.banner button:hover {
+  color: #f00;
+}
