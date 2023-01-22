@@ -145,7 +145,7 @@ img.slider-img {
   margin-bottom: 120px;
   flex-direction: column;
   background-color: #fff;
-  opacity: .7;
+  opacity: .8;
 }
 
 .schedule-info:last-of-type {
@@ -157,8 +157,8 @@ img.slider-img {
 }
 
 .schedule-info h2 {
-  color: #806286;
-  font: 400 1.8rem cursive;
+  color: #581e64;
+  font: 900 1.8rem cursive;
   letter-spacing: 2px;
 }
 
@@ -245,13 +245,6 @@ img.slider-img {
   margin: 40px 0;
 }
 
-/* responsive */
-/* @media only screen and (max-width: 600px) {
-  .banner-info h1 {
-    margin-bottom: 10px;
-  }
-} */
-
 @media (max-width: 768px) {
   .banner-info {
     width: 90%;
@@ -317,7 +310,8 @@ img.slider-img {
   }
 
   .schedule-info h2 {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
   }
 
   .schedule-details {
