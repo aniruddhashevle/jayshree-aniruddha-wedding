@@ -1,0 +1,241 @@
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+}
+
+/* common */
+.line-highlight {
+  width: 100px;
+  height: 1px;
+  margin: 30px auto;
+  display: block;
+  background-color: #fff;
+}
+
+.line-highlight.dark {
+  background-color: #806286;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 70%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* header */
+.banner {
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #86c7ed;
+  color: #fff;
+}
+
+img.slider-img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.banner-info {
+  width: 70%;
+  max-width: 1200px;
+  padding: 10px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #1c161d78;
+}
+
+.banner-info h1 {
+  font: 200 6rem/100% cursive;
+}
+
+.banner-info h1 span {
+  font-size: 3rem;
+}
+
+.banner-info h2 {
+  font: 300 2rem 'Helvetica', sans-serif;
+}
+
+.banner h3 {
+  margin-bottom: 50px;
+  font: 400 2.5rem cursive;
+}
+
+.banner button {
+  border: 2px solid;
+  padding: 10px 30px;
+  background-color: transparent;
+  color: #fff;
+  font: 400 1.5rem 'Helvetica', sans-serif;
+  letter-spacing: 5px;
+}
+
+.banner button:hover {
+  color: #f00;
+}
+
+/* invitation section */
+.invitation {
+  /* background: url('../images/info-section.JPG') no-repeat; */
+  background: #806286 url('../images/flowers.svg') no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fceeff;
+  /*#7a61aa4f;*/
+  background-position: 50% 50%;
+}
+
+.invitation .wrapper {
+  padding: 120px 30px;
+  /* background: #7a61aa4f; */
+  /* filter: drop-shadow(2px 12px 3px #000); */
+}
+
+.invitation h2 {
+  /* color: #806286; */
+  font: 600 4rem cursive;
+}
+
+.invited-by {
+  margin-bottom: 30px;
+  font: 400 1.5rem 'Helvetica', sans-serif;
+  /* color: #d0d0d0; */
+}
+
+.with-text {
+  margin-bottom: 10px;
+}
+
+.invitation h3 {
+  margin-bottom: 10px;
+  font: 400 3.5rem cursive;
+}
+
+/* .no-gifts {
+  color: #25ffb2;
+} */
+
+/* schedule section */
+.schedule {
+  padding: 120px 0;
+  background-color: #614f76;
+  background: url('../images/propose.jpg') 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.schedule-info {
+  padding: 40px 40px 60px;
+  margin-bottom: 120px;
+  flex-direction: column;
+  background-color: #fff;
+  opacity: .7;
+}
+
+.schedule-info:last-of-type {
+  margin-bottom: 0;
+}
+
+.schedule-info:hover {
+  opacity: .9;
+}
+
+.schedule-info h2 {
+  color: #806286;
+  font: 400 1.8rem cursive;
+  letter-spacing: 2px;
+}
+
+.schedule-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.schedule-details>div {
+  flex-direction: column;
+}
+
+.schedule-details-title {
+  margin-bottom: 10px;
+  font: 400 1.2rem 'Helvetica', sans-serif;
+  color: #cb3030;
+}
+
+.schedule-details-desc {
+  /* font: 400 1.2rem 'Helvetica', sans-serif; */
+  font-size: 1.2rem;
+  color: #655368;
+}
+
+/* location section */
+.location {
+  background: #806286 url('../images/flowers.svg') no-repeat;
+  background-size: cover;
+  /* text-align: center; */
+  color: #fceeff;
+  background-position: 50% 50%;
+}
+
+.location .wrapper {
+  padding: 120px 30px;
+  /* background: #7a61aa4f; */
+  /* filter: drop-shadow(2px 12px 3px #000); */
+}
+
+.location h2 {
+  /* color: #806286; */
+  font: 600 4rem cursive;
+}
+
+.location .line-highlight {
+  margin: 0 0 20px;
+}
+
+.location address {
+  width: 34%;
+  min-width: 340px;
+  font: 400 1.2rem/1.5rem 'Helvetica', sans-serif;
+}
+
+.location .by-ways {
+  margin-bottom: 30px;
+}
+
+.location ul {
+  list-style-type: disclosure-closed;
+  list-style-position: inside;
+}
+
+.location ul li {
+  margin-bottom: 5px;
+  font: 400 1.2rem 'Helvetica', sans-serif;
+  /* color: #d0d0d0; */
+}
+
+.location h3 {
+  margin-bottom: 20px;
+  font: 400 2.2rem 'Helvetica', sans-serif;
+}
+
+.location h4 {
+  margin-bottom: 10px;
+  font: 400 1.5rem 'Helvetica', sans-serif;
+}
+
+.how-to-react {
+  margin: 40px 0;
+}
