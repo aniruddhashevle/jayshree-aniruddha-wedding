@@ -247,9 +247,13 @@ img.slider-img {
 
 @media (max-width: 768px) {
   .banner-info {
-    width: 90%;
+    width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
+    bottom: 0;
+    top: initial;
+    left: initial;
+    transform: none;
   }
 
   .banner-info h1 {
