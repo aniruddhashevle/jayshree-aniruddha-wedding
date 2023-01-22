@@ -1,8 +1,12 @@
 body {
   font-family: "Georgia", "Times New Roman", serif;
-  font-weight: normal;
+  /* font-weight: normal;
   font-style: normal;
-  font-size: 1em;
+  font-size: 1em; */
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 /* common */
@@ -25,7 +29,7 @@ body {
 }
 
 .wrapper {
-  width: 70%;
+  width: 90%;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -124,9 +128,9 @@ img.slider-img {
   font: 400 3.5rem cursive;
 }
 
-/* .no-gifts {
-  color: #25ffb2;
-} */
+.no-gifts {
+  font-size: 1.2rem;
+}
 
 /* schedule section */
 .schedule {
@@ -166,6 +170,7 @@ img.slider-img {
 }
 
 .schedule-details>div {
+  width: 30%;
   flex-direction: column;
 }
 
@@ -176,8 +181,8 @@ img.slider-img {
 }
 
 .schedule-details-desc {
-  /* font: 400 1.2rem 'Helvetica', sans-serif; */
-  font-size: 1.2rem;
+  text-align: center;
+  font: 400 1.2rem 'Helvetica', sans-serif;
   color: #655368;
 }
 
@@ -238,4 +243,134 @@ img.slider-img {
 
 .how-to-react {
   margin: 40px 0;
+}
+
+/* responsive */
+/* @media only screen and (max-width: 600px) {
+  .banner-info h1 {
+    margin-bottom: 10px;
+  }
+} */
+
+@media (max-width: 768px) {
+  .banner-info {
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .banner-info h1 {
+    margin-bottom: 15px;
+    font-size: 3rem;
+  }
+
+  .banner-info h1 span {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  .banner-info h2 {
+    font-size: 1rem;
+  }
+
+  .line-highlight {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .banner h3 {
+    font-size: 1.75rem;
+  }
+
+  .banner button {
+    font-size: .75rem;
+  }
+
+  .invitation .wrapper {
+    padding: 60px 0;
+  }
+
+  .invitation h2 {
+    font-size: 2rem;
+  }
+
+  .invited-by {
+    font-size: .75rem;
+  }
+
+  .invitation h3 {
+    font-size: 1.75rem;
+  }
+
+  .no-gifts {
+    font-size: .6rem;
+  }
+
+  .schedule {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .schedule-info {
+    padding: 20px 20px 30px;
+    margin-bottom: 30px;
+  }
+
+  .schedule-info h2 {
+    font-size: 1.2rem;
+  }
+
+  .schedule-details {
+    justify-content: space-between;
+    align-items: flex-start;
+
+  }
+
+  .schedule-details-title {
+    font-size: 1rem;
+  }
+
+  .schedule-details-desc {
+    font-size: .9rem;
+  }
+
+  .location .wrapper {
+    padding: 60px 0;
+  }
+
+  .schedule-details>div {
+    width: 30%;
+
+  }
+
+  .location h2 {
+    font-size: 2rem;
+  }
+
+  .location address {
+    width: auto;
+    min-width: auto;
+    font-size: .9rem;
+  }
+
+  .how-to-react {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .location .by-ways {
+    margin-bottom: 20px;
+  }
+
+  .location h3 {
+    font-size: 1.5rem;
+  }
+
+  .location h4 {
+    font-size: 1rem;
+  }
+
+  .location ul li {
+    font-size: .8rem;
+  }
 }
