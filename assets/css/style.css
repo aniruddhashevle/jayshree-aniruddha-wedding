@@ -86,7 +86,7 @@ img.slider-img {
   background-color: transparent;
   color: #fff;
   font: 400 1.5rem 'Helvetica', sans-serif;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   text-decoration: none;
 }
 
@@ -249,8 +249,8 @@ img.slider-img {
     padding-top: 20px;
     padding-bottom: 20px;
     bottom: 0;
-    top: initial;
-    left: initial;
+    top: auto;
+    left: auto;
     transform: none;
   }
 
