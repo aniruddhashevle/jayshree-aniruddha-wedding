@@ -37,7 +37,6 @@ body {
 /* header */
 .banner {
   width: 100vw;
-  height: 100vh;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -253,6 +252,10 @@ img.slider-img {
     top: auto;
     left: auto;
     transform: none;
+  }
+
+  img.slider-img {
+    height: calc(100vh - 60px);
   }
 
   .banner-info h1 {
