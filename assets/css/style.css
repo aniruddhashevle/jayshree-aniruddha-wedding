@@ -367,6 +367,7 @@ img.slider-img {
     width: auto;
     min-width: auto;
     font-size: .9rem;
+    line-height: 1.2rem;
   }
 
   .sawantwadi-palace-img-wrapper {
@@ -392,6 +393,6 @@ img.slider-img {
   }
 
   .location ul li {
-    font-size: .8rem;
+    font-size: .9rem;
   }
 }
