@@ -200,8 +200,7 @@ img.slider-img {
 }
 
 .location h2 {
-  /* color: #806286; */
-  font: 600 4rem cursive;
+  font: 600 4rem/110% cursive;
 }
 
 .location .line-highlight {
@@ -212,6 +211,20 @@ img.slider-img {
   width: 34%;
   min-width: 340px;
   font: 400 1.2rem/1.5rem 'Helvetica', sans-serif;
+}
+
+.location address a {
+  color: #38d3c9;
+}
+
+.sawantwadi-palace-img-wrapper {
+  width: 45%;
+  float: right;
+}
+
+.sawantwadi-palace-img-wrapper>img {
+  width: 100%;
+  height: 100%;
 }
 
 .location .by-ways {
@@ -296,7 +309,7 @@ img.slider-img {
   }
 
   .invited-by {
-    font-size: .75rem;
+    font-size: .9rem;
   }
 
   .invitation h3 {
@@ -304,7 +317,7 @@ img.slider-img {
   }
 
   .no-gifts {
-    font-size: .6rem;
+    font-size: .8rem;
   }
 
   .schedule {
@@ -346,6 +359,7 @@ img.slider-img {
   }
 
   .location h2 {
+    margin-top: 20px;
     font-size: 2rem;
   }
 
@@ -353,6 +367,11 @@ img.slider-img {
     width: auto;
     min-width: auto;
     font-size: .9rem;
+  }
+
+  .sawantwadi-palace-img-wrapper {
+    width: 100%;
+    float: none;
   }
 
   .how-to-react {
